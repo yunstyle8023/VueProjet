@@ -1,0 +1,108 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-05 08:56:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-07 10:19:56
+*/
+.layout{
+  min-width: 3.10rem;
+  width: 6.4rem;
+   margin: 0 auto;
+  position:relative;
+  padding-top: 0.47rem;
+}
+#dhead{
+  width: 100%;
+  height:0.47rem;
+  position: fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  border-bottom:1px solid #f3f3f3;
+  background:#fff;
+}
+.head-box{
+  width:100%;
+  height:.46rem;
+  padding:0 .18rem;
+}
+.headlogo{
+  width: .46rem;
+  height: .22rem;
+  margin-top: .12rem;
+  background:url("../img/headlogo.png") no-repeat;
+  background-size: 100% 100%;
+}
+.list li{
+  float:left;
+  font-size: 0;
+  height: .47rem;
+  margin-right: .19rem;
+}
+.list li a{
+  font-size: .15rem;
+  line-height:.47rem;
+}
+.mov{
+  color:rgb(35,132,232);
+}
+.book{
+  color:rgb(159,120,96);
+}
+.radio{
+  color:#E4A813;
+}
+.group{
+  color:#2AB8CC;
+}
+.clasify{
+  font-size:0;
+  width: .2457143rem;
+  height: .1828571rem;
+  margin-top: .16rem;
+  background:url("../img/search.png") no-repeat;
+  background-size: cover;
+}
+#search-page{
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background: #fff;
+  // display: none;
+  }
+.sch-page-top {
+  padding: 0.1rem;
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+.sch-page-top input{
+  font-size: 0.14rem;
+  background: #f3f3f3;
+  width: 5.6rem;
+  height: 0.3rem;
+  vertical-align: middle;
+}
+.sch-page-top span{
+  font-size: 0.16rem;
+  color:  #42bd56;
+  padding-right: 0.1rem;
+}
+.sch-page-main{
+  padding: 0.25rem 0.2rem;
+}
+.sch-page-main li{
+  width: 2rem;
+  text-align: center;
+  padding:0.2rem 0;
+  float: left;
+}
+.sch-page-main li p{
+  font-size: 0.24rem;
+}
+.sch-page-main li span{
+  color: #999;
+  font-size: 0.12rem;
+}

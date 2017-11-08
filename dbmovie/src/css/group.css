@@ -1,0 +1,43 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-05 08:59:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-06 07:44:21
+*/
+.groud_main{
+  width: 100%;
+  padding: 0 .18rem;
+}
+.groud_con{
+  width: 100%;
+}
+.groud_con h1{
+    font-size: .18rem;
+    color: #111;
+    padding: .2rem 0;
+    font-weight: normal;
+}
+.groud_con div img{
+    width: .42rem;
+    float: left;
+}
+.groud_con div h2{
+    font-weight: normal;
+    font-size: .18rem;
+    color: #111;
+    line-height: .42rem;
+    padding-left: .5rem;
+}
+.groud_con div h2 span{
+    font-size: .15rem;
+    color: #ccc;
+    float: right
+}
+.groud_con div p{
+    font-size: .15rem;
+    color: #aaa;
+    overflow: hidden;
+    padding: .15rem 0;
+}
+
+
